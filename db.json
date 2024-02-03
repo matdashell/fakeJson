@@ -1,14 +1,172 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+  "loja": {
+    "nome": "Loja 1",
+    "email": "email@email.com",
+    "dataNascimento": "2021-01-01",
+    "genero": "MASCULINO",
+    "cep": 12345678,
+    "rua": "Rua 1",
+    "numero": 1,
+    "complemento": "Complemento 1",
+    "bairro": "Bairro 1",
+    "cidade": "Cidade 1",
+    "estado": "Estado 1",
+    "descricao": "Descrição da loja 1",
+    "foto": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAAAAAAD/4QAiRXhpZgAATU0AKgAAAAgAAQESAAMAAAABAAEAAIdpAAQAAAABAAAAJgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAA7aADAAQAAAABAAABPAAAAAD/2wBDAAoHBwkHBgoJCAkLCwoMDxkQDw4ODx4WFxIZJCAmJSMgIyIoLTkwKCo2KyIjMkQyNjs9QEBAJjBGS0U+Sjk/QD3/2wBDAQsLCw8NDx0QEB09KSMpPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT3/wAARCAABAAEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicqKRsAnBZ7HcZsIjsSRw5Lk9T/oZHhKsQVGNmJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4eLj5OXm5+jp6vLz9PX29/j5+vv8A/aAAwDAQACEQMRAD8A9+ooooA//Z"
+  },
+  "loja-simples": {
+    "nome": "Loja 1",
+    "descricao": "Descrição da loja 1",
+    "foto": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAAAAAAD/4QAiRXhpZgAATU0AKgAAAAgAAQESAAMAAAABAAEAAIdpAAQAAAABAAAAJgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAA7aADAAQAAAABAAABPAAAAAD/2wBDAAoHBwkHBgoJCAkLCwoMDxkQDw4ODx4WFxIZJCAmJSMgIyIoLTkwKCo2KyIjMkQyNjs9QEBAJjBGS0U+Sjk/QD3/2wBDAQsLCw8NDx0QEB09KSMpPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT3/wAARCAABAAEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicqKRsAnBZ7HcZsIjsSRw5Lk9T/oZHhKsQVGNmJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4eLj5OXm5+jp6vLz9PX29/j5+vv8A/aAAwDAQACEQMRAD8A9+ooooA//Z"
+  },
+  "usuario": {
+    "nome": "nome usuario 1",
+    "whatsapp": 123456789,
+    "cep": 12345678,
+    "rua": "rua usuario 1",
+    "numero": 123,
+    "complemento": "complemento usuario 1",
+    "bairro": "bairro usuario 1",
+    "cidade": "cidade usuario 1",
+    "estado": "SP"
+  },
+  "produto": {
+    "id": 1,
+    "nome": "nome produto 1",
+    "valorMinimo": 100.0,
+    "genero": "MASCULINO",
+    "categoria": "ROUPA",
+    "subcategoria": "CAMISETA",
+    "estado": "NOVO",
+    "descricao": "descricao produto 1",
+    "foto": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAAAAAAD/4QAiRXhpZgAATU0AKgAAAAgAAQESAAMAAAABAAEAAIdpAAQAAAABAAAAJgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAA7aADAAQAAAABAAABPAAAAAD/2wBDAAoHBwkHBgoJCAkLCwoMDxkQDw4ODx4WFxIZJCAmJSMgIyIoLTkwKCo2KyIjMkQyNjs9QEBAJjBGS0U+Sjk/QD3/2wBDAQsLCw8NDx0QEB09KSMpPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT3/wAARCAABAAEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicqKRsAnBZ7HcZsIjsSRw5Lk9T/oZHhKsQVGNmJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4eLj5OXm5+jp6vLz9PX29/j5+vv8A/aAAwDAQACEQMRAD8A9+ooooA//Z",
+    "leiloado": false,
+    "medida": {
+      "tamanho": 50,
+      "busto": 100,
+      "cintura": 80,
+      "quadril": 100,
+      "comprimento": 60,
+      "manga": 20
+    }
+  },
+  "produto-propostas": {
+    "content": [
+      {
+        "id": 1,
+        "nome": "Produto 1",
+        "descricao": "Descrição do produto 1",
+        "numero": 123,
+        "complemento": "complemento usuario 1",
+        "bairro": "bairro usuario 1",
+        "cidade": "cidade usuario 1",
+        "estado": "SP",
+        "valor": 100.0
+      },
+      {
+        "id": 2,
+        "nome": "Produto 2",
+        "descricao": "Descrição do produto 2",
+        "numero": 123,
+        "complemento": "complemento usuario 1",
+        "bairro": "bairro usuario 1",
+        "cidade": "cidade usuario 1",
+        "estado": "SP",
+        "valor": 100.0
+      },
+      {
+        "id": 3,
+        "nome": "Produto 3",
+        "descricao": "Descrição do produto 3",
+        "numero": 123,
+        "complemento": "complemento usuario 1",
+        "bairro": "bairro usuario 1",
+        "cidade": "cidade usuario 1",
+        "estado": "SP",
+        "valor": 100.0
+      },
+      {
+        "id": 4,
+        "nome": "Produto 4",
+        "descricao": "Descrição do produto 4",
+        "numero": 123,
+        "complemento": "complemento usuario 1",
+        "bairro": "bairro usuario 1",
+        "cidade": "cidade usuario 1",
+        "estado": "SP",
+        "valor": 100.0
+      },
+      {
+        "id": 5,
+        "nome": "Produto 5",
+        "descricao": "Descrição do produto 5",
+        "numero": 123,
+        "complemento": "complemento usuario 1",
+        "bairro": "bairro usuario 1",
+        "cidade": "cidade usuario 1",
+        "estado": "SP",
+        "valor": 100.0
+      }
+    ],
+    "totalElements": 5,
+    "totalPages": 1,
+    "number": 0,
+    "last": true,
+    "first": true,
+    "empty": false
+  },
+  "produto-list": {
+    "content": [
+      {
+        "id": 1,
+        "nome": "Produto 1",
+        "descricao": "Descrição do produto 1",
+        "leiload": false,
+        "foto": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAAAAAAD/4QAiRXhpZgAATU0AKgAAAAgAAQESAAMAAAABAAEAAIdpAAQAAAABAAAAJgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAA7aADAAQAAAABAAABPAAAAAD/2wBDAAoHBwkHBgoJCAkLCwoMDxkQDw4ODx4WFxIZJCAmJSMgIyIoLTkwKCo2KyIjMkQyNjs9QEBAJjBGS0U+Sjk/QD3/2wBDAQsLCw8NDx0QEB09KSMpPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT3/wAARCAABAAEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicqKRsAnBZ7HcZsIjsSRw5Lk9T/oZHhKsQVGNmJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4eLj5OXm5+jp6vLz9PX29/j5+vv8A/aAAwDAQACEQMRAD8A9+ooooA//Z"
+      },
+      {
+        "id": 2,
+        "nome": "Produto 1",
+        "descricao": "Descrição do produto 2",
+        "leiload": false,
+        "foto": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAAAAAAD/4QAiRXhpZgAATU0AKgAAAAgAAQESAAMAAAABAAEAAIdpAAQAAAABAAAAJgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAA7aADAAQAAAABAAABPAAAAAD/2wBDAAoHBwkHBgoJCAkLCwoMDxkQDw4ODx4WFxIZJCAmJSMgIyIoLTkwKCo2KyIjMkQyNjs9QEBAJjBGS0U+Sjk/QD3/2wBDAQsLCw8NDx0QEB09KSMpPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT3/wAARCAABAAEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicqKRsAnBZ7HcZsIjsSRw5Lk9T/oZHhKsQVGNmJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4eLj5OXm5+jp6vLz9PX29/j5+vv8A/aAAwDAQACEQMRAD8A9+ooooA//Z"
+      },
+      {
+        "id": 3,
+        "nome": "Produto 1",
+        "descricao": "Descrição do produto 3",
+        "leiload": true,
+        "foto": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAAAAAAD/4QAiRXhpZgAATU0AKgAAAAgAAQESAAMAAAABAAEAAIdpAAQAAAABAAAAJgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAA7aADAAQAAAABAAABPAAAAAD/2wBDAAoHBwkHBgoJCAkLCwoMDxkQDw4ODx4WFxIZJCAmJSMgIyIoLTkwKCo2KyIjMkQyNjs9QEBAJjBGS0U+Sjk/QD3/2wBDAQsLCw8NDx0QEB09KSMpPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT3/wAARCAABAAEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicqKRsAnBZ7HcZsIjsSRw5Lk9T/oZHhKsQVGNmJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4eLj5OXm5+jp6vLz9PX29/j5+vv8A/aAAwDAQACEQMRAD8A9+ooooA//Z"
+      },
+      {
+        "id": 4,
+        "nome": "Produto 1",
+        "descricao": "Descrição do produto 4",
+        "leiload": false,
+        "foto": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAAAAAAD/4QAiRXhpZgAATU0AKgAAAAgAAQESAAMAAAABAAEAAIdpAAQAAAABAAAAJgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAA7aADAAQAAAABAAABPAAAAAD/2wBDAAoHBwkHBgoJCAkLCwoMDxkQDw4ODx4WFxIZJCAmJSMgIyIoLTkwKCo2KyIjMkQyNjs9QEBAJjBGS0U+Sjk/QD3/2wBDAQsLCw8NDx0QEB09KSMpPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT3/wAARCAABAAEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicqKRsAnBZ7HcZsIjsSRw5Lk9T/oZHhKsQVGNmJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4eLj5OXm5+jp6vLz9PX29/j5+vv8A/aAAwDAQACEQMRAD8A9+ooooA//Z"
+      },
+      {
+        "id": 5,
+        "nome": "Produto 1",
+        "descricao": "Descrição do produto 5",
+        "leiload": false,
+        "foto": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAAAAAAD/4QAiRXhpZgAATU0AKgAAAAgAAQESAAMAAAABAAEAAIdpAAQAAAABAAAAJgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAA7aADAAQAAAABAAABPAAAAAD/2wBDAAoHBwkHBgoJCAkLCwoMDxkQDw4ODx4WFxIZJCAmJSMgIyIoLTkwKCo2KyIjMkQyNjs9QEBAJjBGS0U+Sjk/QD3/2wBDAQsLCw8NDx0QEB09KSMpPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT3/wAARCAABAAEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicqKRsAnBZ7HcZsIjsSRw5Lk9T/oZHhKsQVGNmJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4eLj5OXm5+jp6vLz9PX29/j5+vv8A/aAAwDAQACEQMRAD8A9+ooooA//Z"
+      }
+    ],
+    "totalElements": 5,
+    "totalPages": 1,
+    "number": 0,
+    "last": true,
+    "first": true,
+    "empty": false
+  },
+  "login-email": {
+    "otpId": "abcdefghijklm",
+    "otpExpiresIn": 3600
+  },
+  "login-otp": {
+    "role": "store",
+    "newUser": true,
+    "authExpireIn": 3600
   }
 }
